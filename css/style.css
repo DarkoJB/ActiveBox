@@ -674,7 +674,9 @@ h1, h2, h3, h4 {
     }
 
 /* CAROUSEL */
-
+    .c_img{
+        width: 100%;
+    }
     .carousel_text{
         font-size: 25px;
     }
@@ -715,6 +717,9 @@ h1, h2, h3, h4 {
 @media (max-width: 415px){
     /* CAROUSEL */
     .carousel_image{
+        width: 100%;
+    }
+    .c_img{
         width: 100%;
     }
 }
